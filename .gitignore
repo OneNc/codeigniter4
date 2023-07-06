@@ -48,19 +48,33 @@ Vagrantfile
 #-------------------------
 # Temporary Files
 #-------------------------
-writable/cache/*
-!writable/cache/index.html
+backend/writable/cache/*
+!backend/writable/cache/index.html
 
-writable/logs/*
-!writable/logs/index.html
+backend/writable/logs/*
+!backend/writable/logs/index.html
 
-writable/session/*
-!writable/session/index.html
+backend/writable/session/*
+!backend/writable/session/index.html
 
-writable/uploads/*
-!writable/uploads/index.html
+backend/writable/uploads/*
+!backend/writable/uploads/index.html
 
-writable/debugbar/*
+backend/writable/debugbar/*
+
+frontend/writable/cache/*
+!frontend/writable/cache/index.html
+
+frontend/writable/logs/*
+!frontend/writable/logs/index.html
+
+frontend/writable/session/*
+!frontend/writable/session/index.html
+
+frontend/writable/uploads/*
+!frontend/writable/uploads/index.html
+
+frontend/writable/debugbar/*
 
 php_errors.log
 
